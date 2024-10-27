@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>🚇공사 소음 상쇄 프로젝트🏗️</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="header">
+      <h3>Team. InnoVision</h3>
+    </div>
+    <h1>🚇공사 소음 상쇄 프로젝트🏗️</h1>
+    <div class="depart-line"></div>
+    <div class="chart-container">
+      <div class="live-chart">
+        <div class="live-chart-container">
+          <div class="live-chart-container-info">
+            <p>소음 라이브 🔴</p>
+            <button id="setupMicButton">소음 분석을 위한 마이크 허용</button>
+          </div>
+        </div>
+        <div class="stress-img"></div>
+      </div>
+      <div class="depart-line"></div>
+      <div class="digital-signal-chart">
+        <div class="digital-signal-chart-info">
+          <p>역위상 디지털 신호 📈</p>
+          <div>
+            <button id="playButton">재생하여 소음 상쇄하기 </button>
+          </div>
+          <label class="infinity">
+            <input type="checkbox" id="loopCheckbox"> 반복재생
+          </label>
+        </div>
+      </div>
+      <div class="analog-signal-chart">
+        <p>역위상 아날로그 변환(보기용) 📈</p>
+      </div>
+    </div>  
+    <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
