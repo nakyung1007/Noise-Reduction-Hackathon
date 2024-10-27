@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 20px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #a2d2ff;
+    color: white;
+}
+
+.chart-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    margin-bottom: 20px;
+}
+
+/* 차트 CSS */
+.live-chart {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.live-chart-container {
+  width: 550px;
+}
+
+.live-chart p {
+  font-weight: 700;
+}
+
+
+.digital-signal-chart {
+  width: 700px;
+  height: 500px;
+}
+
+.digital-signal-chart-info {
+  display: flex;
+  align-items: center;
+}
+
+.digital-signal-chart p {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.analog-signal-chart {
+  width: 700px;
+  height: 500px;
+}
+
+.analog-signal-chart p {
+  font-weight: 700;
+}
+
+.depart-line {
+  width: 700px;
+  height: 2px;
+  background-color: #333;
+}
+
+.stress-img {
+  margin-left: 10px;
+  border-radius: 70px;
+  bottom: 50px;
+  right: 200px;
+  width: 140px;
+  height: 170px; /* 원하는 높이로 설정 */
+  background-image: url(/static/images/분노.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+.stress-img:hover {
+  transform: scale(1.1); /* 마우스 올렸을 때 1.1배로 확대 */
+}
+
+.live-chart-container-info {
+  display: flex;
+  align-items: center;
+}
+
+.live-chart-container-info button {
+  margin-left: 20px;
+}
+
+.header {
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.infinity {
+  margin-left: 15px;
+}
