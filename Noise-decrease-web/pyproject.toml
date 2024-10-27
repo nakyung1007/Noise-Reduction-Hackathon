@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "noise-decrease"
+version = "0.1.0"
+description = ""
+authors = ["jaeyunim00 <ijy00120877@gmail.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+pyserial = "^3.5"
+gunicorn = "^23.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
