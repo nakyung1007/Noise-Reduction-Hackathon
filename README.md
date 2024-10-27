@@ -1,1 +1,2 @@
-# Noise-decrease-Construction-Zones
+# 오아시스 해커톤 제 5회: 공사 소음 프로젝트
+### 팀장: 정권희, 팀원: 조나경, 임재윤, 박기정
